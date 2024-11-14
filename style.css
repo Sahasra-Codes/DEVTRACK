@@ -1,0 +1,166 @@
+
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+
+.navbar a{
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+  margin-left: 40px;
+  font-weight: 500;
+}
+
+.navbar a::before{
+  content: "";
+  background: #fff;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar a :hover{
+    text-decoration: underline;
+}
+
+.navbar a:hover:before{
+  width: 100%;
+  text-decoration: underline;
+}
+
+
+.title_1 h2{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: space-around;
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  
+
+}
+
+.slides video{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index:-1;
+  left: 10%;
+}
+
+.slides h1{
+  width: 100%;
+  color: white;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 120%;
+  width: 100%;
+}
+
+
+html{
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+
+
+
+.slides video{
+  position:absolute;
+  bottom: 0;
+
+}
+
+
+.aboutweb p{
+  position: absolute;
+  color: white;
+  top: 130%;
+  width: 100%;
+  text-align: center;
+  left: 20%;
+  top: 130%;
+  width: 40%;
+  font-size: 30px;
+  
+}
+
+.aboutweb h3{
+  color: black;
+  position: absolute;
+  top: 600%;
+
+}
+
+.aboutme h5{
+  position: absolute;
+  color: white;
+  top: 40%;
+  left:10%;
+  font-size: 30px;
+}
+
+.aboutme h6{
+  position: absolute;
+  color: white;
+  top: 45%;
+  left:10%;
+  width: 25%;
+  font-size: 20px;
+
+}
+
+.aboutme button{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  box-shadow:5px 5px rgb(3, 3, 110);
+  border-radius: 30px;
+  top: 85%;
+  left:10%;
+  height: 50px;
+  width: 120px;
+}
+
+.contact button{
+  color: white;
+  background-color: black;
+  position:absolute;
+  top: 130%;
+  left: 70%;
+  height: 100px;
+  width: 120px;
+  
+}
